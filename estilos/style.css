@@ -1,2 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+body {
+    background-color: blueviolet;
+}
 
+main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
