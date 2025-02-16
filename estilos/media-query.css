@@ -39,13 +39,22 @@ Grandes telas: acima de 1200px
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #Formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    #Formulario > h1{
+        font-size: 2em;
+    }
+    
+    #Formulario > p {
+    font-size: 1.2em;
+    }
+    
 }
